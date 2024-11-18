@@ -1,0 +1,114 @@
+<!--
+Archivo:reservarJ.html
+Descripción:reservaciones para Jalisco-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Agencia Bibani</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (version gratuita)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- fuentes de letras-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!--estilos css-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- menu-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="destinos.html">Destinos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Ofertas y Promociones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="reseñas.html">Reseñas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="datos.html">Datos Curiosos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       <!-- Header pequeño que se muestra arriba-->
+        <header class="masthead">
+            <div class="container">
+                </div>
+        </header>
+       <!--cuestionario para los datos esenciales de la reservación-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <section class="page-section" id="contact">
+                    <div class="container">
+                        <div class="text-center">
+                            <h2 class="section-heading text-uppercase" style="color: #ffc800;">Reserva ahora!</h2>
+                            <h3 class="section-subheading text-muted">¡Asegura tu experiencia!</h3>
+                        </div>
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <div class="row align-items-stretch mb-5">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <!-- apartado para la fecha de llegada-->
+                                        <input class="form-control" id="name" type="text" placeholder="Fecha de llegada *" data-sb-validations="required" />
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">Ingrese la fecha de llegada.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <!-- apartado para la fecha de salida-->
+                                        <input class="form-control" id="name" type="text" placeholder="Fecha de salida *" data-sb-validations="required" />
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">Ingrese la fecha de salida.</div>
+                                    </div>
+                                    <div class="form-group mb-md-0">
+                                        <!-- Numero de Huespedes-->
+                                        <input class="form-control" id="phone" type="tel" placeholder="No. de Huespedes*" data-sb-validations="required" />
+                                        <div class="invalid-feedback" data-sb-feedback="phone:required">El número de Huespedes es requerido</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <!-- nombre del cliente-->
+                                        <input class="form-control" id="name" type="text" placeholder="Nombre *" data-sb-validations="required" />
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">El nombre es requerido.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <!-- correo electronico-->
+                                        <input class="form-control" id="email" type="email" placeholder="Email *" data-sb-validations="required,email" />
+                                        <div class="invalid-feedback" data-sb-feedback="email:required">El email es requerido.</div>
+                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email no valido.</div>
+                                    </div>
+                                    <div class="form-group mb-md-0">
+                                        <!-- numero de telefono-->
+                                        <input class="form-control" id="phone" type="tel" placeholder="Número telefonico *" data-sb-validations="required" />
+                                        <div class="invalid-feedback" data-sb-feedback="phone:required">El número telefonico es requerido</div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- texto al enviar el mensaje-->
+                             <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center text-white mb-3">
+                                    <div class="fw-bolder">Su reservación con destino a Jalisco ha sido exitosa!</div>
+                                    En breve nos comunicaremos con usted.
+                                    <br />
+                                    <a href="https://mile0214.github.io/Bibani.github.io/">https://mile0214.github.io/Bibani.github.io/</a>
+                                </div>
+                            </div>
+                              <!-- texto en caso de error en el envio del mensaje-->
+                              <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error al reservar</div></div>
+                              <!-- boton de envio-->
+                             <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Reservar</button></div>
+                         </form>
+                     </div>
+                 </section>
+             </div>
+         </section>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
+         <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+     </body>
+ </html>
