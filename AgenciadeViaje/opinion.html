@@ -1,0 +1,149 @@
+<!--
+Archivo:opinion.html
+Descripción:apartado para las reseñas y comentarios de los usuario-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Agencia Bibani</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (version gratuita)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- fuentes de letras-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!--estilos css-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- menu-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="destinos.html">Destinos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="opinion.html">Reseñas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="datos.html">Datos Curiosos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       <!-- Header pequeño que se muestra arriba-->
+        <header class="masthead">
+            <div class="container">
+                </div>
+        </header>
+        <!-- Contiene fotos de perfil y una reseña de usuario-->
+        <section class="page-section" id="services">
+            <div class="container">
+                
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Reseñas y Comentarios</h2>
+                    <h3 class="section-subheading text-muted">Ayuda a otros a decidir</h3>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="foto mx-auto rounded-circle" src="imagenes/perfilh.png" alt="..." />
+                                
+                            </div>
+                            <div class="col-10">
+                                <h6>Edgar Lumbreras</h6>
+                                <p class="text-muted">Fecha de publicación: febrero-2024</p>
+                                <p class="text-muted">Hola, les quisiera contar mi percepción de mi viaje tanto a los clientes como a
+                                    la empresa. Me gusto como manejan la organización pues tienen la capacidad
+                                    de hacer cambios ante cualquier imprevisto y se los digo por experiencia. Al
+                                    momento que yo llegue a mi destino nuestro transporte se retrasó por 20
+                                    minutos sin embargo los guías turísticos y los organizadores movieron varios
+                                    tiempos de las actividades para que nosotros como clientes no nos perdiéramos
+                                    de ninguna, eso me agrado bastante pues soy una persona que si pasa algún
+                                    incidente se pone nervioso. Yo como cliente no tuve que manejar con el estrés o
+                                    frustración de que el viaje no vaya según lo planeado, eso es algo que se le
+                                    tiene que reconocer a la empresa pues hacen que como cliente solo disfrutes y
+                                    te relajes en tu viaje, cosa que no todas las empresas suelen priorizar.</p>
+                            </div> 
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="foto mx-auto rounded-circle" src="imagenes/perfilm.png" alt="..." />
+                                
+                            </div>
+                            <div class="col-10">
+                                <h6>Ariatne V.</h6>
+                                <p class="text-muted">Fecha de publicación: junio-2024</p>
+                                <p class="text-muted">Al ser usuaria frecuente de esta empresa les quiero dar una sincera opinión.
+                                    Llevo cuatro viajes acompañada de esta empresa, les puedo decir que si eres de
+                                    las personas con paladares delicados esta empresa es de mucha ayuda pues se
+                                    encargan de que todo sea al gusto del cliente desde detalles mínimos hasta
+                                    detalles de preferencia como es el caso de la comida, los restaurantes a los que
+                                    llevan a sus clientes son de una gran calidad pues son presentables y lindo eso
+                                    es de ayuda por si eres como yo, de tomar muchas fotos. El hotel a donde
+                                    residen a sus clientes es muy agradable a la vista y al momento de descansar,
+                                    aunque debido a la cantidad de actividades que ofrece la empresa pues no
+                                    estarás mucho tiempo en tu habitación. Les recomiendo basta la empresa.<br></p>
+                            </div> 
+                        </div>
+                   
+                </div>
+                
+            </div>
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase" style="color: #ffc800;">Dejanos saber tus Comentarios</h2>
+            </div>
+            <!--es un form donde puedes dejar tu comentario-->
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col">
+                        
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Mensaje que se muestra en el recuadro y cuando no se llena el campo-->
+                                <textarea class="form-control" id="message" placeholder="Comentarios*" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">El campo es obligatorio.</div>
+                            </div>
+                        
+                    
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center text-white mb-3">
+                                    <div class="fw-bolder"></div>
+                                    <br />
+                                    <a href="index.html">Agradecemos tus comentarios..!</a>
+                                </div>
+                            </div>
+                        <section class="page-section" id="">
+                            <div class="container">
+                               
+                                    
+                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error al enviar</div></div>
+                                    <!-- Boton para mandar el mensaje-->
+                                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar </button></div><br>
+                                    <div class="row">
+                                        <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Agencia Bibani, atención personalizada, paquetes turísticos a medida y los mejores precios del mercado</p></div>
+                                    </div><br>
+                                
+                                </form>
+                            </div>
+                            
+                        </section>
+                       
+        </section>
+       
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="js/scripts.js"></script>
+       <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
+
+            

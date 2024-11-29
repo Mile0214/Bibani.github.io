@@ -11169,6 +11169,11 @@ header.masthead .masthead-heading {
     text-align: left;
   }
 }
+.foto{
+  width: 120px;
+  height: 120px;
+  margin-left: 30px;
+}
 @media (min-width: 992px) {
   .timeline > li {
     min-height: 150px;
