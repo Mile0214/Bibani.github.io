@@ -1,5 +1,5 @@
 {
-    "lang": "es",
+    "lang": "en-us",
     "name": "Bibani",
     "short_name": "Bibani",
     "description": "Sitio Web Agencia de viajes Bibani.",
@@ -10,8 +10,22 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "/icon512.png",
-            "sizes": "512x512"
-        }
-    ]
+      "src": "circle.ico",
+      "sizes": "48x48"
+    },
+    {
+      "src": "circle.svg",
+      "sizes": "72x72 96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "tire.svg",
+      "sizes": "128x128 256x256"
+    },
+    {
+      "src": "wheel.svg",
+      "sizes": "512x512"
+    }
+  ]
 }
+
