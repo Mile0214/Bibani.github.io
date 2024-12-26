@@ -1,0 +1,17 @@
+{
+    "lang": "es",
+    "name": "Bibani",
+    "short_name": "Bibani",
+    "description": "Sitio Web Agencia de viajes Bibani.",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512"
+        }
+    ]
+}
